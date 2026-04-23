@@ -3,83 +3,6 @@
 **Alumno/a:** Luz María Vazquez Soto
 **Fecha:** 23/04/2026
 
----
-
-> **Instrucciones:** Documentar los 2 prompts más importantes que usaste durante el examen.
-> Completar **todas** las secciones con criterio propio. No se trata de copiar lo que generó la IA — se evalúa tu capacidad de analizar, detectar errores y tomar decisiones técnicas fundamentadas.
->
-> **Mínimo por sección de análisis: 3 oraciones.** Respuestas de una línea no se consideran válidas.
-
----
-
-> **Ejemplo de análisis insuficiente** ❌
-> _"La IA generó el código y funcionó bien."_
->
-> **Ejemplo de análisis aceptable** ✅
-> _"La IA reemplazó los `<div>` por etiquetas semánticas, pero usó `<section>` para la navegación en lugar de `<nav>`. Lo detecté al revisar la estructura en DevTools. Técnicamente es incorrecto porque `<nav>` tiene un rol ARIA implícito que `<section>` no tiene, así que lo corregí manualmente."_
-
----
-
-
-## Prompt 2
-
-### Momento del proceso
-
-```
-<!--
-  Indicá en qué punto del examen usaste este prompt.
-  No es sobre la hora exacta — es sobre el contexto: ¿qué estabas intentando resolver cuando recurriste a la IA?
-  Ej: "Cuando no sabía cómo estructurar el layout con Grid."
-  Ej: "Al terminar el HTML, para verificar si me faltaba algo de accesibilidad."
-  Ej: "Al principio del ejercicio de JS, para entender cómo arrancar."
--->
-```
-
-### Lo que le pedí a la IA
-
-```
-<!-- Pegá aquí el prompt exacto que escribiste. Debe ser el texto que vos escribiste, no la respuesta. -->
-```
-
-### Análisis del resultado obtenido
-
-```
-<!--
-  Describí con tus propias palabras qué generó la IA. No copies el código ni la respuesta — analizála.
-  Mínimo 3 oraciones. Respondé:
-  - ¿Qué enfoque tomó la IA para resolver el problema?
-  - ¿El resultado era lo que esperabas? ¿Por qué sí o por qué no?
-  - ¿Qué parte te resultó útil como punto de partida?
--->
-```
-
-### Qué debí corregir manualmente y por qué
-
-```
-<!--
-  Esta sección es la más importante. Sé específico/a. Mínimo 3 oraciones.
-  Respondé:
-  - ¿Qué error concreto tenía el resultado? (semántico, de accesibilidad, lógico, de estilo, etc.)
-  - ¿Cómo lo detectaste? (al probarlo en el browser, al leer el código, al ver la consola...)
-  - ¿Por qué estaba técnicamente incorrecto o insuficiente?
-  - ¿Qué cambiaste exactamente para que funcionara bien?
-  Si no corregiste nada, explicá por qué el resultado era correcto tal como estaba.
--->
-```
-
----
-
-## Reflexión final
-
-```
-<!--
-  Mínimo 3 oraciones. Respondé:
-  - ¿Qué tipo de errores repitió la IA que tuviste que corregir?
-  - ¿Hubo algo que la IA resolvió bien a la primera sin que necesitaras tocarlo?
-  - ¿Cambiarías la forma en que le pedís cosas a la IA la próxima vez? ¿Por qué?
--->
-```
-
 
 ## Prompt 1
 
@@ -104,4 +27,25 @@ el primer error que noté es que no coloco main, además no colocó footer y que
 lo detecté releyendo el codigo
 parte del enunciado era eliminar estos div, y es algo que no cumplió por completo 
 
+en principio me habló de errores con css, pero primero decidi revisar los arreglos en html, decidi dejar el segundo prompt para realizar cambios en css
 
+
+
+## Prompt 2
+
+### Momento del proceso
+pedi a la IA que realice los ajustes necesareios para que se pudiera alinear con lo requerido por la consigna
+
+
+### Lo que le pedí a la IA
+teniendo en cuenta que cree un style.css y lo vincule al html con el que venimos trabajando, definir un layout macro con grid-template-areas para header, main y footer usando display flex en la barra de navegacion y las etiquetas de habilidades. Tambien eliminar los estilos del bloque style del html
+
+
+### Análisis del resultado obtenido
+teniendo en cuenta que ya habia creado el archivo css y agregado mas o menos as estructuras necesarias la ia aplicó grid como era necesario en header, main y footer, agrego flex en la barra nav y en las habilidades, el diseño quedó mas accesible con estos pasos.
+
+En cuanto a funcionalidad creo que quedo bien y cumple, pero personalemnte me gustaria modificar tanto en color como en diseño apra que quede mas minimalista y agregarle accesibilidad para diferentes pantallas 
+
+
+## Reflexión final
+La ia me parece un compañero muy necesario a la hora de lleavr un proyecto adelante, ya que agiliza los proyectos, pero necesita modificaciones y supervision para poder crear exactamente lo que se necesita, de igual manera, podria haber generado un mejor resultado de haber hecho un prompt más detallado.
