@@ -1,7 +1,7 @@
 # IA_HISTORY.md — Registro de Uso de IA
 
-**Alumno/a:** <!-- Tu nombre completo -->
-**Fecha:** <!-- Fecha del examen, ej: 21/04/2026 -->
+**Alumno/a:** Luz María Vazquez Soto
+**Fecha:** 23/04/2026
 
 ---
 
@@ -20,53 +20,6 @@
 
 ---
 
-## Prompt 1
-
-### Momento del proceso
-
-```
-<!--
-  Indicá en qué punto del examen usaste este prompt.
-  No es sobre la hora exacta — es sobre el contexto: ¿qué estabas intentando resolver cuando recurriste a la IA?
-  Ej: "Cuando no sabía cómo estructurar el layout con Grid."
-  Ej: "Al terminar el HTML, para verificar si me faltaba algo de accesibilidad."
-  Ej: "Al principio del ejercicio de JS, para entender cómo arrancar."
--->
-```
-
-### Lo que le pedí a la IA
-
-```
-<!-- Pegá aquí el prompt exacto que escribiste. Debe ser el texto que vos escribiste, no la respuesta. -->
-```
-
-### Análisis del resultado obtenido
-
-```
-<!--
-  Describí con tus propias palabras qué generó la IA. No copies el código ni la respuesta — analizála.
-  Mínimo 3 oraciones. Respondé:
-  - ¿Qué enfoque tomó la IA para resolver el problema?
-  - ¿El resultado era lo que esperabas? ¿Por qué sí o por qué no?
-  - ¿Qué parte te resultó útil como punto de partida?
--->
-```
-
-### Qué debí corregir manualmente y por qué
-
-```
-<!--
-  Esta sección es la más importante. Sé específico/a. Mínimo 3 oraciones.
-  Respondé:
-  - ¿Qué error concreto tenía el resultado? (semántico, de accesibilidad, lógico, de estilo, etc.)
-  - ¿Cómo lo detectaste? (al probarlo en el browser, al leer el código, al ver la consola...)
-  - ¿Por qué estaba técnicamente incorrecto o insuficiente?
-  - ¿Qué cambiaste exactamente para que funcionara bien?
-  Si no corregiste nada, explicá por qué el resultado era correcto tal como estaba.
--->
-```
-
----
 
 ## Prompt 2
 
@@ -126,3 +79,29 @@
   - ¿Cambiarías la forma en que le pedís cosas a la IA la próxima vez? ¿Por qué?
 -->
 ```
+
+
+## Prompt 1
+
+### Momento del proceso
+
+el primer prompt fué para pedirle a la IA que revisara el código html para poder comprobar los errores existentes
+
+### Lo que le pedí a la IA
+
+en el presente html busca y reemplaza todos los div y span que no corresponden y reemplazalo por etiquetas semanticas tales como: header, nav, main, section, article, footer, etc, después explicame qué reemplazaste en cada caso y por qué
+
+
+### Análisis del resultado obtenido
+
+la ia reemplazó los errores semanticos tal como se lo pedi
+el resultado fué bueno, no perfecto, tuve que rehacer algunos errores que no fueron cambiados correctamente según mi criterio.
+me resultó útil no tener que realizar los cambios manualmente, en general creo que pódria haber hecho el mismo trabajo, pero me habria llevado más tiempo 
+
+### Qué debí corregir manualmente y por qué
+
+el primer error que noté es que no coloco main, además no colocó footer y quedaron igualmente varios div que tuve que eliminar yo misma
+lo detecté releyendo el codigo
+parte del enunciado era eliminar estos div, y es algo que no cumplió por completo 
+
+
